@@ -1,0 +1,225 @@
+
+/* ============================================== col-6-2 start ===============*/
+.app-item{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.title{
+  margin-bottom: 40px;
+}
+h3{
+  margin: 0;
+  color: #170b35;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 48px;
+}
+.how-app-work-content-wrap {
+  padding-left:85px
+}
+.how-app-work-content {
+  padding-top:30px;
+  padding-bottom:45px;
+  margin-bottom:40px;
+  position:relative
+}
+.how-app-work-content:before {
+  content:'';
+  width:2px;
+  height:100%;
+  background:url('/gradient-sep.png') no-repeat center center;
+  position:absolute;
+  top:0;
+  left:45px
+}
+.app-item .how-app-work-content-wrap .how-app-work-content button{
+  color: white;
+}
+.pager-item {
+  display:block;
+  cursor: pointer !important;
+}
+.pager-item+.pager-item {
+  margin-top:60px
+}
+.pager-item.active .icon-box .inner:before {
+  opacity:0
+}
+.pager-item.active .icon-box .inner i {
+  color:#fff;
+  -webkit-text-fill-color:#fff
+}
+.single-how-app-work {
+  padding-left:10px
+}
+.single-how-app-work+.single-how-app-work {
+  margin-top:60px
+}
+.single-how-app-work .icon-box,
+.single-how-app-work .text-box {
+  display:table-cell;
+  vertical-align:middle
+}
+.single-how-app-work .icon-box .inner {
+  width:74px;
+  height:74px;
+  background:#6541c1;
+  background:-webkit-gradient(linear,left top,right top,from(#6541c1),color-stop(98%,#d43396),to(#d43396));
+  background:linear-gradient(to right,#6541c1 0,#d43396 98%,#d43396 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6541c1',endColorstr='#d43396',GradientType=1);
+  position:relative;
+  border-radius:50%;
+  text-align:center
+}
+.single-how-app-work .icon-box .inner:before {
+  content:'';
+  position:absolute;
+  top:2px;
+  left:2px;
+  right:2px;
+  bottom:2px;
+  border-radius:50%;
+  background:#fff;
+  opacity:1;
+  -webkit-transition:all .4s ease;
+  transition:all .4s ease
+}
+.single-how-app-work .icon-box .inner i {
+  background:-webkit-gradient(linear,left top,right top,from(#6541c1),color-stop(98%,#d43396),to(#d43396));
+  background:linear-gradient(to right,#6541c1 0,#d43396 98%,#d43396 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  line-height:74px;
+  font-size:44px;
+  position:relative
+}
+.single-how-app-work .icon-box .inner:hover {
+  -webkit-box-shadow:0 18px 37px rgba(212,50,151,.2);
+  box-shadow:0 18px 37px rgba(212,50,151,.2)
+}
+.single-how-app-work .icon-box .inner:hover i {
+  color:#fff;
+  -webkit-text-fill-color:#fff
+}
+.single-how-app-work .icon-box .inner:hover:before {
+  opacity:0
+}
+.single-how-app-work .icon-box .active .inner {
+  -webkit-box-shadow:0 18px 37px rgba(212,50,151,.2);
+  box-shadow:0 18px 37px rgba(212,50,151,.2)
+}
+.single-how-app-work .icon-box .active .inner i {
+  color:#fff;
+  -webkit-text-fill-color:#fff
+}
+.single-how-app-work .icon-box .active .inner:before {
+  opacity:0
+}
+.single-how-app-work .text-box {
+  padding-left:40px
+}
+.single-how-app-work .text-box h4,
+.single-how-app-work .text-box p {
+  margin:0
+}
+.single-how-app-work .text-box h4 {
+  font-size:20px;
+  color:#150a33;
+  font-weight:bold;
+}
+.single-how-app-work .text-box p {
+  font-size:16px;
+  line-height:27px;
+  color:#656565;
+  margin-top:10px
+}
+
+/* download btn*/
+.download-btn {
+  display:inline-block;
+  vertical-align:middle;
+  background:#6541c1;
+  background:-webkit-gradient(linear,left top,right top,from(#6541c1),color-stop(98%,#d43396),to(#d43396));
+  background:linear-gradient(to right,#6541c1 0,#d43396 98%,#d43396 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6541c1',endColorstr='#d43396',GradientType=1);
+  position:relative;
+  padding:12px 0;
+  padding-left:80px;
+  border-radius:28px;
+  padding-right:40px
+}
+.download-btn:before {
+  content:'';
+  position:absolute;
+  top:2px;
+  left:2px;
+  right:2px;
+  bottom:2px;
+  border-radius:28px;
+  background:#fff;
+  opacity:1;
+  -webkit-transition:all .4s ease;
+  transition:all .4s ease
+}
+.download-btn i {
+  font-size:30px;
+  background:-webkit-gradient(linear,left top,right top,from(#6541c1),color-stop(98%,#d43396),to(#d43396));
+  background:linear-gradient(to right,#6541c1 0,#d43396 98%,#d43396 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  position:absolute;
+  top:50%;
+  -webkit-transform:translateY(-50%);
+  transform:translateY(-50%);
+  left:35px;
+  -webkit-transition:all .4s ease;
+  transition:all .4s ease
+}
+.download-btn span.inner {
+  position:relative;
+  display:block
+}
+.download-btn span.avail,
+.download-btn span.store-name {
+  display:block;
+  background:-webkit-gradient(linear,left top,right top,from(#6541c1),color-stop(98%,#d43396),to(#d43396));
+  background:linear-gradient(to right,#6541c1 0,#d43396 98%,#d43396 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  font-weight:600;
+  line-height:1em;
+  -webkit-transition:all .4s ease;
+  transition:all .4s ease
+}
+.download-btn span.avail {
+  font-size:12.5px
+}
+.download-btn span.store-name {
+  text-transform:uppercase;
+  font-size:16px;
+  margin-top:5px
+}
+.download-btn.active,
+.download-btn:hover {
+  -webkit-box-shadow:0 15px 30px rgba(212,50,151,.27);
+  box-shadow:0 15px 30px rgba(212,50,151,.27)
+}
+.download-btn.active:before,
+.download-btn:hover:before {
+  opacity:0
+}
+.download-btn.active i.fab,
+.download-btn.active span.avail,
+.download-btn.active span.store-name,
+.download-btn:hover i.fab,
+.download-btn:hover span.avail,
+.download-btn:hover span.store-name {
+  color:#fff;
+  -webkit-text-fill-color:#fff
+}
+.how-app-work-section .download-btn.active {
+  margin-right:15px
+}
+/* download btn close*/
