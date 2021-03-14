@@ -18,8 +18,8 @@
                      <li class="nav-item"><nuxt-link to="#" >Home</nuxt-link></li>
                      <li class="nav-item"><nuxt-link to="#"  >Features</nuxt-link></li>
                      <li class="nav-item"><nuxt-link to="#" >How it Works</nuxt-link></li>
-                     <li class="nav-item"><nuxt-link to="#" >How it Works</nuxt-link></li>
-                     <li class="nav-item"><nuxt-link to="#">Pricing</nuxt-link></li>
+                     <li class="nav-item"><nuxt-link to="#" >Pricing</nuxt-link></li>
+                     <li class="nav-item"><nuxt-link to="#">Blog</nuxt-link></li>
                      <li class="nav-item"><nuxt-link to="#" class="btn">Download</nuxt-link></li>
                    </ul>
                  </div>
@@ -58,7 +58,7 @@ name: "navbar"
 a{
   text-decoration: none;
   padding-left: 20px;
-  padding-right: 9px;
+  padding-right: 20px;
   color: white;
   font-weight: bold;
 }

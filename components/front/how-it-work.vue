@@ -95,6 +95,7 @@
         </div>
       </div>
     <front-how-it-work-2/>
+    <front-how-it-work-3/>
   </div>
 </template>
 circled-img

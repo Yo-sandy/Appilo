@@ -1,7 +1,10 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid" style="padding: 0">
     <front-features/>
     <front-how-it-work/>
+    <front-pricing/>
+    <front-blog/>
+    <front-footer/>
   </div>
 </template>
 
@@ -11,6 +14,5 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
 </style>
